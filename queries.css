@@ -1,0 +1,214 @@
+@media (max-width: 1400px){
+
+    header {
+        margin-top: 70px;
+    }
+
+    header img {
+        max-width: 500px;
+    }
+
+    header h1 {
+        font-size: 55px;
+    }
+
+    .sell-item img {
+        max-width: 250px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    header {
+        padding: 50px;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 100px;
+        height: auto;
+    }
+
+    header img {
+        max-width: 500px;
+        margin: -120px 0 100px 0;
+        padding: 50px 0;
+    }
+
+    header h1 {
+        font-size: 50px;
+        display: inline;
+    }
+
+    header p {
+        font-size: 18px;
+        margin: 25px 0;
+    }
+
+    header .content {
+        width: 100%;
+        margin-top: -100px;
+    }
+
+    .sell-list  {
+        flex-wrap: wrap;
+        padding: 0 50px;
+        row-gap: 50px;
+    }
+
+    .sell-list .sell-item {
+        width: 48%
+    }
+
+    .sell-item img {
+        max-width: 100%;
+    }
+
+    footer .right a {
+        font-size: 14px;
+        flex-wrap: wrap;
+        padding: 20px 0 0 10px;
+    }
+
+    footer h3 {
+        font-size: 35px;
+    }
+
+    .separator {
+        padding: 0 50px;
+    }
+
+    .categories {
+        padding: 30px 50px;
+    }
+
+    .s-1 {
+        padding: 0 50px;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+
+    nav {
+        margin: 20px;
+    }
+
+    nav button {
+        font-size: 14px;
+        padding: 14px 25px;
+    }
+
+    nav .button {
+        margin-right: -50px;
+        margin-left: 50px;
+    }
+
+    nav .logo {
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+    nav .list {
+        display: none;
+    }
+
+    header img {
+        width: 500px;
+        padding-left: 50px;
+    }
+
+    header h1 {
+        font-size: 40px;
+        line-height: 4rem;
+    }
+
+    header p {
+        font-size: 17px;
+    }
+
+    .separator {
+        padding: 0 50px;
+    }
+
+    .s-1 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 0;
+    }
+
+    .s-1 i {
+        font-size: 30px;
+    }
+
+    .s-1 span {
+        font-size: 18px;
+    }
+
+    .s-1 .item {
+        margin: 10px 40px;
+        width: 80%;
+    }
+    
+    .categories {
+        gap: 5px;
+    }
+
+    .categories a {
+        font-size: 13px;
+        padding: 10px 15px;
+        margin: 0 5px;
+    }
+
+    .sell-list {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .sell-list .sell-item {
+        width: 48%;
+    }
+
+    .view-more {
+        font-size: 12px;
+        margin: 50px 38%;
+    }
+
+    .profile-list {
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 20px 0;
+    }
+    
+    .profile {
+        width: 90%;
+        margin: 5px 40px;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    footer .right {
+        margin:  50px -120px 0 0;
+    }
+
+    footer h3 {
+        font-size: 25px;
+    }
+
+    footer .right a {
+        font-size: 10px;
+    }
+
+    footer .social-icon i {
+        font-size: 10x;
+        padding: 0;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+
+}
