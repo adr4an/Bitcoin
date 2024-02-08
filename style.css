@@ -320,7 +320,7 @@ footer h3 {
 
 footer .right {
     display: flex;
-    align-items: first flex-end;
+    align-items: flex-end;
     flex-direction: column;
     width: 70%;
 }

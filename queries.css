@@ -202,13 +202,120 @@
         font-size: 10px;
     }
 
-    footer .social-icon i {
-        font-size: 10x;
+    footer .social-media i {
+        font-size: 1x;
         padding: 0;
     }
 
     footer p {
         font-size: 10px;
     }
+
+}
+
+@media (max-width: 376px) {
+
+    nav button {
+        padding: 10px 15px;
+    }
+
+    nav .button {
+        margin-right: 1px;
+    }
+
+    header img {
+        width: 380px;
+        margin-right: 40px;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+        padding: 0;
+    }
+
+    header p {
+        font-size: 17px;
+    }
+
+    .separator {
+        font-size: 30px;
+        padding: 0 30px;
+    }
+
+    .s-1 {
+        padding: 0;
+        gap: 10px;
+    }
+
+    .s-1 .item {
+        width: 100%;
+        margin: 10px 20px;
+    }
+
+    .item i {
+        font-size: 25px;
+    }
+
+    .item span {
+        font-size: 17px;
+    }
+
+    .categories a {
+        font-size: 13px;
+        padding: 8px;
+        border-radius: 0;
+    }
+
+    .categories {
+        margin-left: -25px;
+    }
+
+    .sell-list {
+        padding: 0;
+        margin-left: 30px;
+        gap: 30px;
+    }
+
+    .sell-list .sell-item {
+        width: 90%;
+    }
+
+
+    .view-more {
+        margin: 50px 0 50px 30%;
+    }
+
+    .profile-list {
+        padding: 0;
+    }
+
+    .profile {
+        width: 100%;
+        margin-left: 30px;
+    }
+    /*  */
+
+    footer {
+        padding: 50px;
+        flex-direction: column;  
+    }
+
+    footer .right {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        margin-left: -200px;
+    }
+
+    footer .right i {
+        font-size: 17px;
+    }
+
+    footer p {
+        margin-left: 10px;
+    }
+
+   
 
 }
